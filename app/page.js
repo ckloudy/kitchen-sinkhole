@@ -23,7 +23,7 @@ export default function Home() {
     const [systems, setSystems] = useState();
 
     return (
-        <div className="relative top-48">
+        <div className="relative sm:top-32 lg:top-48">
             <Hero stats={{ activePilots: activePilots, kills: kills }} />
             <Activity stats={{ systems: systems, regions: regions }} />
             <Content />

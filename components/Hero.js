@@ -25,7 +25,7 @@ const Hero = ({ stats }) => {
                 <Link
                     href="https://www.youtube.com/@KitchenSinkhole"
                     target="_blank"
-                    className="px-9 py-4 mb-3 bg-[#C05B33] rounded-sm font-bold">
+                    className="px-9 py-4 mb-3 bg-[#C05B33] rounded-sm">
                     YouTube
                 </Link>
             </div>
