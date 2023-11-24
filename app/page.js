@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 import fetchStats from "../utils/api";
 import Hero from "@/components/Hero";
-import Activity from "@/components/Activity";
+import Activity from "@/components/Travel";
 import Content from "@/components/Content";
 import CTA from "@/components/CTA";
+import Travel from "@/components/Travel";
 
 export default function Home() {
     useEffect(() => {
@@ -24,8 +25,8 @@ export default function Home() {
 
     return (
         <div className="relative sm:top-32 lg:top-48">
-            <Hero stats={{ activePilots: activePilots, kills: kills }} />
-            <Activity stats={{ systems: systems, regions: regions }} />
+            <Hero activePilots={activePilots} kills={kills} />
+            <Travel regions={regions} systems={systems} />
             <Content />
             <CTA />
         </div>

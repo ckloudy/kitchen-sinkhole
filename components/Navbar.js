@@ -10,7 +10,7 @@ const navbar = () => {
                     <p>Kitcken Sinkhole</p>
                 </Link>
             </div>
-            <p className="align-middle">Welcome Capsuleer!</p>
+            <p>Welcome Capsuleer!</p>
         </nav>
     );
 };

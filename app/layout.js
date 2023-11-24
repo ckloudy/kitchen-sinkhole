@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
                 <div className="bg-[url(../public/Hero-Flipped.png)] bg-cover h-screen absolute -z-10 w-full">
                     <Navbar />
                 </div>
-                <main className="px-26 md:px-32 lg:px-64">{children}</main>
-                {/* <Footer /> */}
+                <main className="px-26 md:px-32 lg:px-72">{children}</main>
+                <Footer />
             </body>
         </html>
     );
