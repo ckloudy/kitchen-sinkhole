@@ -3,35 +3,34 @@ import { activeStatBoxInfo } from "@/constants";
 
 const ActiveStatBox = ({ activePilots, kills }) => {
     return (
-        <div className="flex space-x-16 align-middle">
-            <div>
+        <>
+            <div className="text-center justify-center w-full">
                 <Image
                     src="/ActivePilots-icon.png"
                     alt="pilots-logo"
                     width={47}
                     height={47}
-                    className="pb-2"
+                    className="py-4 mx-auto"
                 />
-
-                <p className="text-5xl font-bold text-[#429FBA] pb-2">{activePilots}</p>
+                <p className="text-5xl font-bold text-[#429FBA] pb-2 secondaryFont">
+                    {activePilots}
+                </p>
                 <p className="text-lg font-bold">{activeStatBoxInfo[0].title}</p>
                 <p className="text-sm">{activeStatBoxInfo[0].timeFrame}</p>
             </div>
-            <div>
+            <div className="text-center justify-center w-full">
                 <Image
                     src="/Kills-icon.png"
                     alt="kills-logo"
                     width={47}
                     height={47}
-                    className="pb-1.5"
+                    className="pb-3.5 pt-4 mx-auto"
                 />
-                <>
-                    <p className="text-5xl font-bold text-[#429FBA] pb-2">{kills}</p>
-                    <p className="text-lg font-bold">{activeStatBoxInfo[1].title}</p>
-                    <p className="text-sm">{activeStatBoxInfo[1].timeFrame}</p>
-                </>
+                <p className="text-5xl font-bold text-[#429FBA] pb-2 secondaryFont">{kills}</p>
+                <p className="text-lg font-bold">{activeStatBoxInfo[1].title}</p>
+                <p className="text-sm">{activeStatBoxInfo[1].timeFrame}</p>
             </div>
-        </div>
+        </>
     );
 };
 

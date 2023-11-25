@@ -4,23 +4,25 @@ import { contentCardsInfo, contentInfo } from "@/constants";
 
 const Content = () => {
     return (
-        <section className="grid grid-cols-3 gap-8 mb-28">
-            <div className="w-3/4">
-                <Image
-                    src="/pew-icon.png"
-                    alt="ships exploding"
-                    width={60}
-                    height={60}
-                    className="mb-8"
-                />
-                <h2 className="text-4xl border-b-2 pb-8">{contentInfo.heading}</h2>
-            </div>
-            {contentCardsInfo.map((item, i) => {
-                return <ContentCard title={item.title} desc={item.desc} key={i} />;
-            })}
-            <div className="col-span-2 text-center my-auto mx-auto">
-                <h2 className="text-2xl font-bold mb-2">{contentInfo.srp}</h2>
-                <p>{contentInfo.message}</p>
+        <section>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="w-full text-center mx-auto lg:mx-0">
+                    <Image
+                        src="/pew-icon.png"
+                        alt="ships exploding"
+                        width={60}
+                        height={60}
+                        className="mb-8 mx-auto"
+                    />
+                    <h2 className="text-3xl border-b-2 pb-8">{contentInfo.heading}</h2>
+                </div>
+                {contentCardsInfo.map((item, i) => {
+                    return <ContentCard title={item.title} desc={item.desc} key={i} />;
+                })}
+                <div className="content_card lg:col-span-2 my-auto mx-auto p-10 md:py-16 lg:py-20 lg:px-32 xl:px-52">
+                    <h2 className="text-xl lg:text-2xl font-bold mb-2">{contentInfo.srp}</h2>
+                    <p className="text-sm lg:text-md">{contentInfo.message}</p>
+                </div>
             </div>
         </section>
     );

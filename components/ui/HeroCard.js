@@ -3,12 +3,18 @@ import ActiveStatBox from "./ActiveStatBox";
 
 const HeroCard = ({ activePilots, kills }) => {
     return (
-        <div className="flex mt-32 mb-36 justify-between h-[250px] w-[auto] m-auto rounded-lg pt-12 px-16 backdrop-blur-sm border-2 border-slate-600 bg-[#091118] bg-opacity-80">
-            <div className=" w-2/3">
-                <h2 className="text-2xl pb-8 font-bold">{heroCardContent.heading}</h2>
-                <p className="leading-7">{heroCardContent.desc}</p>
+        <div className="block lg:flex mt-20 justify-between lg:space-x-4 card_style">
+            <div className="lg:flex px-12 py-10">
+                <div className="w-full lg:w-2/3 mb-12 lg:mb-0 text-center lg:py-3 xl:py-8">
+                    <h2 className="text-3xl pb-3 font-bold ">{heroCardContent.heading}</h2>
+                    <p className="w-full leading-7 lg:pr-16 secondaryFont text-sm">
+                        {heroCardContent.desc}
+                    </p>
+                </div>
+                <div className="flex justify-center w-full lg:justify-end lg:w-1/3 md:-space-x-6 lg:space-x-6">
+                    <ActiveStatBox activePilots={activePilots} kills={kills} />
+                </div>
             </div>
-            <ActiveStatBox activePilots={activePilots} kills={kills} />
         </div>
     );
 };

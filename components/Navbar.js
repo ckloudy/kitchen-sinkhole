@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const navbar = () => {
     return (
-        <nav className="flex justify-between pt-4 px-64">
-            <div className="flex">
+        <nav className="flex justify-between pt-4">
+            <div className="flex align-middle">
                 <Image src="/Gator-Logo.png" alt="logo" width={34} height={34} />
                 <Link href="/" className="flex pl-2">
-                    <p>Kitcken Sinkhole</p>
+                    <p className="p-2">Kitcken Sinkhole</p>
                 </Link>
             </div>
-            <p>Welcome Capsuleer!</p>
+            <p className="p-2">Welcome Capsuleer!</p>
         </nav>
     );
 };

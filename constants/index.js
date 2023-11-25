@@ -1,5 +1,5 @@
 export const title = {
-    title: "For Riches and Glory",
+    title: "For Riches and Glory!",
     subtitle:
         "Join an active and friendly Wormhole Corp where the only blues are our high sec static",
 };

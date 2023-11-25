@@ -7,7 +7,7 @@ const SecondaryCta = ({ href, text }) => {
             <Link
                 href={href}
                 target="_blank"
-                className="rounded-sm font-bold bg-[#C05B33] px-12 py-4 flex space-x-2">
+                className="rounded-sm font-bold bg-[#C05B33] px-12 py-3 flex space-x-2">
                 {/* <Image src="/YouTube-icon.png" alt="YouTube icon" width={17} height={17} /> */}
                 {text}
             </Link>
