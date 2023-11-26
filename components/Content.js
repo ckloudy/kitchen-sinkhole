@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ContentCard from "./ui/ContentCard";
 import { contentCardsInfo, contentInfo } from "@/constants";
 
@@ -7,8 +6,8 @@ const Content = () => {
         <section>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="w-full text-center mx-auto lg:mx-0">
-                    <Image
-                        src="/pew-icon.png"
+                    <img
+                        src="Images/pew-icon.png"
                         alt="ships exploding"
                         width={60}
                         height={60}
