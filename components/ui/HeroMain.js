@@ -12,7 +12,7 @@ const HeroMain = () => {
                 </p>
             </div>
             <div className="text-center mt-12 md:mt-8 justify-center md:space-x-11 md:flex">
-                <PrimaryCta href={"https://discord.com/invite/b9Nw39M"} text={"Join Now"} />
+                <PrimaryCta href={"https://discord.com/invite/VVZp83R33a"} text={"Join Now"} />
                 <SecondaryCta href={"https://www.youtube.com/@KitchenSinkhole"} text={"Youtube"} />
             </div>
         </div>
