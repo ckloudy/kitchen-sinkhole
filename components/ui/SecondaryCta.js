@@ -13,7 +13,7 @@ const SecondaryCta = ({ href, text }) => {
                         height={"auto"}
                         className="mr-2"
                     />
-                    <p className="text-white text-lg">{text}</p>
+                    <p className="text-white text-lg tracking-wider">{text}</p>
                 </a>
             </div>
         </div>
