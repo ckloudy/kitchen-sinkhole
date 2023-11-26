@@ -5,7 +5,7 @@ const ActiveStatBox = ({ activePilots, kills }) => {
         <>
             <div className="text-center justify-center w-full">
                 <img
-                    src="/Images/ActivePilots-icon.png"
+                    src="Images/ActivePilots-icon.png"
                     alt="pilots-logo"
                     width={47}
                     height={47}
@@ -19,7 +19,7 @@ const ActiveStatBox = ({ activePilots, kills }) => {
             </div>
             <div className="text-center justify-center w-full">
                 <img
-                    src="/Images/Kills-icon.png"
+                    src="Images/Kills-icon.png"
                     alt="kills-logo"
                     width={47}
                     height={47}

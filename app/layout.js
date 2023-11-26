@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body className="mx-auto relative">
                 <img
-                    src="/Images/Hero-Flipped-Main.png"
+                    src="Images/Hero-Flipped-Main.png"
                     alt="hero image of a wormhole"
                     style={{ maxWidth: "100%", height: "auto" }}
                     className="absolute -z-10 object-contain container"

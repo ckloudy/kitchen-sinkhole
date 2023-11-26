@@ -7,7 +7,7 @@ const PrimaryCta = ({ href, text }) => {
                     target="_blank"
                     className="rounded-sm font-bold bg-[#429FBA] hover:bg-gradient-to-b from-[#429FBA] to-[#90cadb]  flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
                     <img
-                        src="/Images/Discord-Icon.svg"
+                        src="Images/Discord-Icon.svg"
                         alt="Discord icon"
                         width={20}
                         height={10}

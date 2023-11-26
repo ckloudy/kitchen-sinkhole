@@ -4,7 +4,7 @@ import SecondaryCta from "./ui/SecondaryCta";
 const CTA = () => {
     return (
         <section className="mt-24 mb-16 text-center">
-            <img src="/Images/Gator-logo-lg.png" width={118} height={118} className="mx-auto" />
+            <img src="Images/Gator-logo-lg.png" width={118} height={118} className="mx-auto" />
             <h2 className="text-4xl md:text-5xl pb-3">Join the Gators today!</h2>
             <p className="text-md lg:text-lg secondaryFont">
                 90% reduction in ship spinning, guaranteed
