@@ -6,7 +6,7 @@ export const title = {
 
 export const heroCardContent = {
     heading: "Content is a plenty!",
-    desc: "We have very active player participation and organise regular OP's. If you're a new or returning player who would like to explore uncharted wormhole space, experience exciting wormhole PVP or simply looking for a laid-back and relaxed corporation, you will feel right at home with [DKVC]",
+    desc: "We have very active player participation and organise regular OP's. If you're a new or returning player who would like to explore uncharted wormhole space, experience exciting wormhole PVP or simply looking for a laid-back and relaxed community, you will feel right at home with [DKVC]",
 };
 
 export const activeStatBoxInfo = [
@@ -41,27 +41,27 @@ export const contentInfo = {
 
 export const contentCardsInfo = [
     {
-        title: "Pochven Roams",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        title: "Pochven Fleets",
+        desc: "Do a lap around the Red Triangle with the boys and girls in search of people asking for their day to be ruined",
     },
     {
         title: "Nullsec Roams",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        desc: "Poke the big bears of the null sec regions. Make bets on how many wrecks you can score before the heat melts the structural integrity of your ship",
     },
     {
         title: "ESS Robberies",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        desc: "If all else fails, steal money from the blocs. Watch them scramble to try and stop us",
     },
     {
-        title: "Hot Drops",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        title: "Subcap Drops",
+        desc: "Bait unsuspecting invaders into thinking they can score easy kills. Then drop the hammer. You can be the bait, or the hammer.",
     },
     {
-        title: "Blops",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        title: "Black Ops",
+        desc: "Join a group who likes to teleport big guns on people who think they've got the upper hand. No skill required!",
     },
     {
         title: "Structure Bashes",
-        desc: "Lorem ipsum dolor sit amet consectetur. Proin ullamcorper et pellentesque in consequat tortor diam faucibus lacinia. Vivamus pretium ullamcorper ornare",
+        desc: "Wormholes are simple: you either fight, or you die and we take your stuff",
     },
 ];
