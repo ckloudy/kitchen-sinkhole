@@ -1,7 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
-import HeroFlipped from "../public/Images/Hero-Flipped-Main.png";
 import "./globals.css";
 
 export const metadata = {
@@ -13,8 +11,8 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className="mx-auto relative">
-                <Image
-                    src={HeroFlipped}
+                <img
+                    src="/Images/Hero-Flipped-Main.png"
                     alt="hero image of a wormhole"
                     style={{ maxWidth: "100%", height: "auto" }}
                     className="absolute -z-10 object-contain container"
