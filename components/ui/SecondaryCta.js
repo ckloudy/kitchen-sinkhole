@@ -1,3 +1,6 @@
+import Image from "next/image";
+import youtubeIcon from "../../public/Images/YouTube-I-New.svg";
+
 const SecondaryCta = ({ href, text }) => {
     return (
         <div>
@@ -5,9 +8,9 @@ const SecondaryCta = ({ href, text }) => {
                 <a
                     href={href}
                     target="_blank"
-                    className="rounded-sm font-bold bg-[#C05B33] flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
-                    <img
-                        src="/YouTube-I-New.svg"
+                    className="rounded-sm font-bold bg-[#C05B33] hover:hover:bg-gradient-to-b from-[#C05B33] to-[#be785e] flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
+                    <Image
+                        src={youtubeIcon}
                         alt="YouTube icon"
                         width={25}
                         height={"auto"}

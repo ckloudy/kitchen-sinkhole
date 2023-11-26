@@ -1,11 +1,11 @@
-import Link from "next/link";
 import Image from "next/image";
+import gatorSVG from "../public/Images/Gator-Logo.svg";
 
 const navbar = () => {
     return (
         <nav className="flex justify-between pt-4">
             <div className="flex align-middle">
-                <img src="/Gator-Logo.svg" alt="logo" width={34} height={34} />
+                <Image src={gatorSVG} alt="logo" width={34} height={34} />
                 <a href="/" className="flex pl-1">
                     <p className="py-2 pl-1 text-md md:text-[1.3rem]">Kitcken Sinkhole</p>
                 </a>

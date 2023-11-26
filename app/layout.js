@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import HeroFlipped from "../public/Hero-Flipped-Main.png";
+import HeroFlipped from "../public/Images/Hero-Flipped-Main.png";
 import "./globals.css";
 
 export const metadata = {

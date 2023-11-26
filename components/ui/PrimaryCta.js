@@ -1,3 +1,6 @@
+import Image from "next/image";
+import discordIcon from "../../public/Images/Discord-Icon.svg";
+
 const PrimaryCta = ({ href, text }) => {
     return (
         <div>
@@ -5,9 +8,9 @@ const PrimaryCta = ({ href, text }) => {
                 <a
                     href={href}
                     target="_blank"
-                    className="rounded-sm font-bold bg-[#429FBA] flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
-                    <img
-                        src="/Discord-Icon.svg"
+                    className="rounded-sm font-bold bg-[#429FBA] hover:bg-gradient-to-b from-[#429FBA] to-[#90cadb]  flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
+                    <Image
+                        src={discordIcon}
                         alt="Discord icon"
                         width={20}
                         height={10}

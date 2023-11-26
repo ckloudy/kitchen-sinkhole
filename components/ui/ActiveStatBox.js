@@ -1,11 +1,14 @@
+import Image from "next/image";
+import activePilotsIcon from "../../public/Images/ActivePilots-icon.png";
+import KillsIcon from "../../public/Images/Kills-icon.png";
 import { activeStatBoxInfo } from "@/constants";
 
 const ActiveStatBox = ({ activePilots, kills }) => {
     return (
         <>
             <div className="text-center justify-center w-full">
-                <img
-                    src="/ActivePilots-icon.png"
+                <Image
+                    src={activePilotsIcon}
                     alt="pilots-logo"
                     width={47}
                     height={47}
@@ -18,8 +21,8 @@ const ActiveStatBox = ({ activePilots, kills }) => {
                 <p className="text-sm jockey">{activeStatBoxInfo[0].timeFrame}</p>
             </div>
             <div className="text-center justify-center w-full">
-                <img
-                    src="/Kills-icon.png"
+                <Image
+                    src={KillsIcon}
                     alt="kills-logo"
                     width={47}
                     height={47}

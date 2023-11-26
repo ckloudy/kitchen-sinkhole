@@ -7,7 +7,7 @@ const HeroMain = () => {
         <div className="text-center">
             <div>
                 <h1 className="text-7xl md:text-8xl font-bold tracking-wide">{title.title}</h1>
-                <p className="text-md md:text-xl font-semibold mt-12 md:mt-8 tracking-wide">
+                <p className="text-md md:text-xl font-semibold mt-12 md:mt-8 tracking-wide secondaryFont">
                     {title.subtitle}
                 </p>
             </div>
