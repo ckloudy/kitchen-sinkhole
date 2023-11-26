@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import fetchStats from "../utils/api";
 import Hero from "@/components/Hero";
-import Activity from "@/components/Travel";
 import Content from "@/components/Content";
 import CTA from "@/components/CTA";
 import Travel from "@/components/Travel";

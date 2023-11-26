@@ -1,16 +1,21 @@
-import Link from "next/link";
-import Image from "next/image";
-
 const SecondaryCta = ({ href, text }) => {
     return (
-        <div className="flex">
-            <Link
-                href={href}
-                target="_blank"
-                className="rounded-sm font-bold bg-[#C05B33] px-12 py-3 flex space-x-2">
-                {/* <Image src="/YouTube-icon.png" alt="YouTube icon" width={17} height={17} /> */}
-                {text}
-            </Link>
+        <div>
+            <div className="w-40 md:w-44 mx-auto md:flex text-center">
+                <a
+                    href={href}
+                    target="_blank"
+                    className="rounded-sm font-bold bg-[#C05B33] flex md:space-x-2 tracking-wider ml-0 px-8 py-4">
+                    <img
+                        src="/YouTube-I-New.svg"
+                        alt="YouTube icon"
+                        width={25}
+                        height={"auto"}
+                        className="mr-2"
+                    />
+                    <p className="text-white text-lg">{text}</p>
+                </a>
+            </div>
         </div>
     );
 };

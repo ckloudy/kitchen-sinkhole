@@ -14,11 +14,23 @@
 body {
     background-color: black;
     color: white;
-    font-family: Jockey One;
 }
 
 .secondaryFont {
     font-family: poppins;
+}
+
+h1 {
+    font-family: Jockey One;
+}
+
+h2 {
+    font-family: Jockey One;
+    font-weight: 100;
+}
+
+a {
+    font-family: Jockey One;
 }
 
 @layer utilities {
@@ -38,5 +50,13 @@ body {
     }
     .content_card {
         @apply text-center backdrop-blur-sm border-2 border-slate-600 bg-[#091118] bg-opacity-80 rounded-md;
+    }
+    p,
+    h1,
+    h2 {
+        @apply tracking-wider;
+    }
+    .jockey {
+        font-family: Jockey One;
     }
 }

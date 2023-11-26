@@ -5,12 +5,12 @@ const navbar = () => {
     return (
         <nav className="flex justify-between pt-4">
             <div className="flex align-middle">
-                <Image src="/Gator-Logo.png" alt="logo" width={34} height={34} />
-                <Link href="/" className="flex pl-2">
-                    <p className="p-2">Kitcken Sinkhole</p>
-                </Link>
+                <img src="/Gator-Logo.svg" alt="logo" width={34} height={34} />
+                <a href="/" className="flex pl-1">
+                    <p className="py-2 pl-1 text-md md:text-[1.3rem]">Kitcken Sinkhole</p>
+                </a>
             </div>
-            <p className="p-2">Welcome Capsuleer!</p>
+            <p className="p-2 text-md md:text-[1.3rem] tracking-wide jockey">Welcome Capsuleer!</p>
         </nav>
     );
 };

@@ -11,7 +11,7 @@ const HeroCard = ({ activePilots, kills }) => {
                         {heroCardContent.desc}
                     </p>
                 </div>
-                <div className="flex justify-center w-full lg:justify-end lg:w-1/3 md:-space-x-6 lg:space-x-6">
+                <div className="flex justify-center w-full lg:justify-end lg:w-1/3 space-x-7 md:space-x-1 lg:space-x-4">
                     <ActiveStatBox activePilots={activePilots} kills={kills} />
                 </div>
             </div>

@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
@@ -21,8 +20,6 @@ export default function RootLayout({ children }) {
                     className="absolute -z-10 object-contain container"
                 />
                 <div className="container mx-auto px-5 overflow-hidden">
-                    {/* <div className="bg-[url(../public/Hero-Flipped.png)] bg-cover h-screen absolute -z-10 w-full"></div> */}
-
                     <Navbar />
                     <main>{children}</main>
                     <Footer />
@@ -31,5 +28,3 @@ export default function RootLayout({ children }) {
         </html>
     );
 }
-
-// className="px-26 md:px-32 lg:px-72"

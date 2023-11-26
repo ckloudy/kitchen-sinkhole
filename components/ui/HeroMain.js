@@ -5,9 +5,13 @@ import SecondaryCta from "./SecondaryCta";
 const HeroMain = () => {
     return (
         <div className="text-center">
-            <h1 className="text-8xl font-bold">{title.title}</h1>
-            <p className="text-lg font-semibold mt-4">{title.subtitle}</p>
-            <div className="text-center mt-7 space-x-11 flex justify-center">
+            <div>
+                <h1 className="text-7xl md:text-8xl font-bold tracking-wide">{title.title}</h1>
+                <p className="text-md md:text-xl font-semibold mt-12 md:mt-8 tracking-wide">
+                    {title.subtitle}
+                </p>
+            </div>
+            <div className="text-center mt-12 md:mt-8 justify-center md:space-x-11 md:flex">
                 <PrimaryCta href={"https://discord.com/invite/b9Nw39M"} text={"Join Now"} />
                 <SecondaryCta href={"https://www.youtube.com/@KitchenSinkhole"} text={"Youtube"} />
             </div>
