@@ -8,6 +8,10 @@ const fetchStats = async () => {
     const date = new Date();
     let currentYear = date.getFullYear();
     let currentMonth = date.getMonth();
+    if (currentMonth == 0) {
+        currentMonth = 12
+        currentYear = currentYear - 1
+    }
     const stats = {
         kills: data.months[`${currentYear}${currentMonth}`].shipsDestroyed,
         activePilots: data.activepvp.characters.count,
