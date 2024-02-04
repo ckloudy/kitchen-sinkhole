@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata = {
-    title: "Welcome to Kitchen Sinkole",
+    title: "Welcome to Kitchen Sinkhole",
     description: "About Kitchen Sinkhole, an EVE Online Corporation",
 };
 
