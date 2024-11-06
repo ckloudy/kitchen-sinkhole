@@ -1,10 +1,11 @@
 const footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <div className="relative bottom-0 mb-20">
             <p className="text-xl text-[#C05B33] font-bold text-center decoration-solid jockey">
                 Useful Links
             </p>
-            <div className="flex px-auto justify-center pt-4">
+            <div className="flex justify-center pt-4 px-auto">
                 <ul className="flex space-x-3 py-auto">
                     <a
                         href={"https://tools.darkventure.space/account/login/?next=/dashboard/"}
@@ -36,8 +37,8 @@ const footer = () => {
                     </a>
                 </ul>
             </div>
-            <div className="text-center mt-8">
-                <p className="text-xs">© 2023 Kitchen Sinkhole</p>
+            <div className="mt-8 text-center">
+                <p className="text-xs">© {currentYear} Kitchen Sinkhole</p>
             </div>
         </div>
     );
